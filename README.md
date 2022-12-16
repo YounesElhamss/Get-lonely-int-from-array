@@ -1,1 +1,3 @@
 # Get-lonely-int-from-array
+
+This code has a method "lonelyInteger" that takes an array of integers, and then uses a for loop to look at the elements in the array one at a time, so it starts with one element, then goes into a nested for loop to go through the same array to see if the element, that the first loop is looking at , appears (as it ofc does at least once) and every time it appears, a variable "count" is incremented. When the nested for loop has counted all the times the element appears, it jumps out of the scope of the nested loop and checks if count = 1, if it is, it will return the integer and finish. If not, it will start over with the next element in the first loop.
